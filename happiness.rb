@@ -20,7 +20,7 @@ end
 mrhappy_login
 
 while @b.text.include? "Please try again"
-   p "Login failed. Please try again."
+   puts "Login failed. Please try again."
    mrhappy_login
 end
 
