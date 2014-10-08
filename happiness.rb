@@ -1,5 +1,7 @@
-require 'watir-webdriver'
+#!/usr/bin/env ruby 
 
+require 'watir-webdriver'
+ 
 @b = Watir::Browser.new :phantomjs
 
 @b.goto("http://mrhappy.lets.qa")
